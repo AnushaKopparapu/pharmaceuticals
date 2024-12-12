@@ -1,0 +1,28 @@
+.carousel-caption {
+  color: white;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: white;
+}
+
+.carousel-control-prev-icon {
+  color: white;
+}
+
+.d-block {
+  height: 700px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones:  */
+
+  .d-block {
+    height: 300px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* For tablets */
+}

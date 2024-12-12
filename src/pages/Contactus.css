@@ -1,0 +1,62 @@
+.contact-icons {
+  color: #007ac2;
+  font-size: 40px;
+  margin-right: 35px;
+  padding-top: 10px;
+  width: 40px;
+  display: block;
+}
+
+.contact-icons-body {
+  text-align: justify;
+  margin-left: 60px;
+  margin-top: -65px;
+  padding: 20px;
+}
+
+.contact-icons-body h5 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.contact-icons-body p {
+  line-height: 25px;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+.form-label {
+  display: block;
+  text-align: justify;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Submit {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: #007ac2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Submit:hover {
+  background-color: #2e99d7;
+}

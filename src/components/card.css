@@ -1,0 +1,43 @@
+.card-title {
+  text-transform: uppercase;
+  font-weight: "bold";
+}
+
+.card-group {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card-details {
+  margin: 0px;
+  width: "30%";
+}
+
+.card-group :hover {
+  background-color: #80adc7;
+}
+
+.card-img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  padding: 10px;
+  height: 320px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones:  */
+  .card {
+    padding: 3px;
+    height: 335px;
+    width: 348px;
+  }
+}

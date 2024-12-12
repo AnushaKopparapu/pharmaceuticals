@@ -1,0 +1,28 @@
+.services-submenu,
+.products-submenu {
+  position: absolute;
+  list-style: none;
+  margin-left: -10px;
+  padding: 10px;
+  z-index: 1;
+}
+.services-submenu-item a.clicked,
+.products-submenu-item a.clicked {
+  display: none;
+}
+
+.services-submenu-item,
+.products-submenu-item {
+  background-color: #007ac2;
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  text-align: start;
+}
+.services-submenu-item a:hover,
+.products-submenu-item a:hover {
+  background-color: #007ac2;
+  color: white;
+}

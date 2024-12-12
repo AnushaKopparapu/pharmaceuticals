@@ -1,0 +1,50 @@
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.custom-navbar{
+  background-color: #007ac2 !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+.navbar-nav .nav-link {
+  color: white;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #08476b;
+}
+
+.navbar-nav .nav-link:focus-visible {
+  background-color: #6797b3;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones:  */
+  .navbar-nav {
+    /* height: 150px; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* For tablets */
+  .navbar-nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
