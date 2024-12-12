@@ -1,6 +1,6 @@
 
 
-Basic Learning of React
+### `Basic Learning of React`
 
 In the project directory, you can run:
 
